@@ -8,7 +8,11 @@ export default [
     languageOptions: {
       parser: tsParser,
       globals: {
-        React: 'readable'  // Add this line to define React as a global
+        React: 'readable', // Add this line to define React as a global
+        process: 'readonly',
+        fetch: 'readonly',
+        URL: 'readonly',
+        RequestInit: 'readonly'
       }
     },
     plugins: {

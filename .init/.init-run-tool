@@ -1,0 +1,4 @@
+{
+    "command": "BROWSER=none npm run dev -- --port <port> --host <host>",
+    "working_directory": "/home/kavia/workspace/code-generation/culinary-companion-222533-221347/recipe_frontend"
+}
